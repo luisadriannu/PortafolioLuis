@@ -1,0 +1,292 @@
+.contenedor{
+    border: 3px solid black;
+    max-width: 1000px;
+}
+
+body, html{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(132,0,255,1) 100%);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/*Cabecera*/
+header{
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+header h3{
+    color: white;
+    padding: 20px;
+    justify-content: center;
+}
+
+/*Menu*/
+.menu2{
+    margin: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(132,0,255,1) 100%);
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.menu li{
+    display: inline-block;
+}
+
+.menu li :hover{
+    background: white;
+    transition: 0.5s;
+    color: black;
+}
+
+/*Portada*/
+
+.imagen{
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/*Contenido*/
+section{
+    width: 70%;
+    margin: 20px;
+    float: left;
+   
+}
+
+/*contenido 1*/
+#dedico{
+    width: 97%;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+/*contenido 2*/
+.habilidades{
+    width: 97%;
+    padding: 10px;
+    border: 3px solid black;
+   
+}
+
+.proyectos{
+    text-align: center;
+}
+.liga{
+    float: left;
+}
+
+.huaracheria{
+    float: right;
+}
+
+.liga2:hover{
+    -webkit-transform: rotate(360deg);
+    transition: 0.5s ease-in-out;
+}
+
+.huarache:hover{
+    -webkit-transform: rotate(360deg);
+    transition: 0.5s ease-in-out;
+}
+
+.foto2:hover{
+    -webkit-transform: rotate(360deg);
+    transition: 0.5s ease-in-out;
+}
+/*contenido 3*/
+.lenguajes{
+    width: 97%;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+
+.contenido3{
+    text-align: center;
+    
+}
+
+.net{
+ float: left;
+
+}
+
+.visualc{
+   float: right;
+}
+.netbeans:hover{
+    -webkit-transform: rotate(360deg);
+    transition: 0.5s ease-in-out;
+}
+
+.visual:hover{
+    -webkit-transform: rotate(360deg);
+    transition: 0.5s ease-in-out;
+}
+
+.visualstudio:hover{
+    -webkit-transform: rotate(360deg);
+    transition: 0.5s ease-in-out;
+}
+/*
+.titulos{  
+    letter-spacing: 5px;
+    width: 91%;
+   
+}
+.titulos h4{
+    display: inline-block;
+    padding: 4px;
+}
+*/
+aside{
+    margin: 20px;
+    padding: 23px;
+    float: left;
+    width: 255px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.adidas{
+    position: relative;
+}
+
+.luiza{
+   padding: 34px;
+}
+
+.imag{
+    margin: 16px;
+}
+
+/*Footer*/
+footer{
+    float: left;
+    margin: 20px;
+    width: 97%;
+    border: 3px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+
+.quiensoy{
+    text-align: center;
+}
+.foter{
+    margin: 7px;
+}
+
+.correo{
+   position: absolute;
+   bottom: 15%;
+}
+.correo2{
+  margin: 5px;
+}
+
+.correoimg{
+    float: right;
+    margin: 4px;
+}
+
+.insta{
+    float: right;
+    margin: 4px;
+}
+
+.face{
+    float: right;
+    margin: 4px;
+}
+
+.cv{
+    float: right;
+    margin: 9px;
+    text-decoration: none;
+    color: white;
+}
+.buton{
+   border-radius: 5px;
+   border: 3px solid black; 
+}
+.cv :hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 800px){
+    #iam{
+        width: 80%;
+    }
+    .aside{
+        width: 80%;
+    }
+    #contact{
+        width: 91%;
+    }
+    .footer{
+        width: 91%;
+    }
+    .imag{
+        margin: 14%;
+        width: 72%;
+    }
+    section{
+        width: 88%;
+    }
+    .liga{
+      margin: 25%;
+    }
+    .huaracheria{
+        margin: 25%;
+    }
+
+    .net{
+        margin: 25%;
+    }
+
+    .visualc{
+        margin: 25%;
+    }
+
+    .menu2{
+        text-align: center;
+    }
+
+    .a{
+       margin: 10%;
+    }
+    .b{
+        margin: 10%;
+    }
+    .c{
+        margin: 10%;
+    }
+    .d{
+        margin: 10%;
+    }
+    .e{
+        margin: 10%;
+    }
+}
+
